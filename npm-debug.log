@@ -1,0 +1,34 @@
+0 info it worked if it ends with ok
+1 verbose cli [
+1 verbose cli   '/usr/local/bin/node',
+1 verbose cli   '/usr/local/lib/node_modules/@jd/jnpm/node_modules/.bin/npm',
+1 verbose cli   '--userconfig=/Users/sunjiao18/.jnpmrc',
+1 verbose cli   '--disturl=https://npm.taobao.org/mirrors/node',
+1 verbose cli   '--registry=http://registry.m.jd.com',
+1 verbose cli   'link'
+1 verbose cli ]
+2 info using npm@3.10.10
+3 info using node@v12.8.0
+4 verbose linkPkg /Users/sunjiao18/work/easy-webpack
+5 silly gentlyRm /usr/local/lib/node_modules/easy-webpack is being purged
+6 verbose gentlyRm don't care about contents; nuking /usr/local/lib/node_modules/easy-webpack
+7 verbose stack Error: EACCES: permission denied, symlink '/Users/sunjiao18/work/easy-webpack' -> '/usr/local/lib/node_modules/easy-webpack'
+8 verbose cwd /Users/sunjiao18/work/easy-webpack
+9 error Darwin 18.7.0
+10 error argv "/usr/local/bin/node" "/usr/local/lib/node_modules/@jd/jnpm/node_modules/.bin/npm" "--userconfig=/Users/sunjiao18/.jnpmrc" "--disturl=https://npm.taobao.org/mirrors/node" "--registry=http://registry.m.jd.com" "link"
+11 error node v12.8.0
+12 error npm  v3.10.10
+13 error path /Users/sunjiao18/work/easy-webpack
+14 error code EACCES
+15 error errno -13
+16 error syscall symlink
+17 error Error: EACCES: permission denied, symlink '/Users/sunjiao18/work/easy-webpack' -> '/usr/local/lib/node_modules/easy-webpack'
+17 error  [Error: EACCES: permission denied, symlink '/Users/sunjiao18/work/easy-webpack' -> '/usr/local/lib/node_modules/easy-webpack'] {
+17 error   errno: -13,
+17 error   code: 'EACCES',
+17 error   syscall: 'symlink',
+17 error   path: '/Users/sunjiao18/work/easy-webpack',
+17 error   dest: '/usr/local/lib/node_modules/easy-webpack'
+17 error }
+18 error Please try running this command again as root/Administrator.
+19 verbose exit [ -13, true ]
